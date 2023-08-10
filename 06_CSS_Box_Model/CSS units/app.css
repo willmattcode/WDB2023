@@ -1,0 +1,72 @@
+/* ems */
+
+html {
+  font-size: 30px;
+}
+
+#percentages {
+  background-color: #6d6875;
+  width: 40%;
+  height: 800px;
+}
+
+#percentages div {
+  background-color: #e5989b;
+  width: 70%;
+  height: 20%;
+}
+
+/* em refers to the size relative to the largest uppercase M on a typewriter */
+
+#ems {
+  font-size: 16px;
+}
+
+#ems h1 {
+  font-size: 20px;
+  /* border: 1px solid black; */
+  /* line-height: 200%; */
+}
+
+#ems h2 {
+  font-size: 2em;
+  margin-left: 1em;
+}
+
+#ems p {
+  font-size: 1em;
+}
+
+#ems h3 {
+  font-size: 1.5em;
+}
+
+button {
+  background-color: green;
+  color: white;
+  font-size: 1em;
+  padding: 0 1em;
+  border-radius: 0.5em;
+}
+
+#ems ul {
+  font-size: 1.25em;
+}
+
+/* rems */
+
+#rems h2 {
+  font-size: 3rem;
+}
+
+#rems h3 {
+  font-size: 2rem;
+}
+
+#rems ul {
+  font-size: 1.5rem;
+}
+
+#rems button {
+  font-size: 1.5rem;
+}

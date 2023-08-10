@@ -1,0 +1,96 @@
+body {
+  background-color: #eae2b7;
+}
+
+h1,
+h2 {
+  color: #003049;
+}
+
+button {
+  background-color: #fcbf49;
+  font-size: 1.2em;
+}
+
+#signup {
+  background-color: #d62828;
+  color: #eae2b7;
+}
+
+span {
+  color: #f77f00;
+}
+
+.tag {
+  background-color: #003049;
+  color: #fcbf49;
+  font-size: 0.65em;
+}
+
+.post a {
+  color: #f77f00;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+footer a {
+  color: #d62828;
+}
+
+h2 + button {
+  font-size: 30px;
+}
+
+footer > a {
+  color: lightseagreen;
+}
+
+input[type="password"] {
+  color: purple;
+}
+
+a[href*="google"] {
+  color: purple;
+}
+
+.post button:hover {
+  background-color: #003049;
+  color: #f1faee;
+}
+
+.post button:active {
+  background-color: green;
+}
+
+.post a:hover {
+  text-decoration: underline;
+}
+
+.post:nth-of-type(2n) {
+  background-color: #f1d294;
+}
+
+h2::first-letter {
+  font-size: 1.2em;
+}
+
+p::first-line {
+  color: cyan;
+}
+
+p::selection {
+  background-color: #003049;
+  color: yellow;
+}
+
+button:hover {
+  background-color: olive;
+  /* font-size: 10px; */
+}
+
+button {
+  background-color: magenta !important;
+}
+
+/* Specificity
+INLINE STYLE more specificic than ID more specific than CLASS more specific than ELEMENT */
